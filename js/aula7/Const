@@ -1,0 +1,15 @@
+    REGRAS DAS CONSTANTE**
+
+1° não podemos criar contantes com palavras reservadas
+
+2° contantes precisam ter nomes significativos
+
+3° não pode começar uma constante com um número
+
+4° Constante não podem conter espaços ou traços
+
+5° Utilizamos camelCase ex: let nomeCompletoDoCliente = 'pedro';
+
+6° As constantes são case -sensitive ex: let nomeCliente = 'luiz'; let nomecliente = 'andre';
+
+7° Não podemos redeclarar constante com a palavra let.
