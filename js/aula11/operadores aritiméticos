@@ -1,0 +1,43 @@
+## Aritméticos
+
+`+ ` *Adição* e *Concatenação*
+`-`
+`/`
+`*`
+`**` *Potenciação*
+`%` *Resto da divisão*
+
+### PRECEDENCIA DOS OPERADORES
+
+>1° ()
+>2° **
+>3° * / %
+>4° + -
+
+# OPERADOR DE INCREMENTO
+
+> ++
+
+`Exemplo1: contador++`
+`Exemplo2: ++contador`
+
+# OPERADOR DE DECREMENTO
+
+> --
+
+`Exemplo1: contador--`
+`Exemplo2: --contador`
+
+# OPERADORES DE ATRIBUIÇÃO
+
+> +=
+> -=
+> *=
+> **=
+> %=
+> /=
+
+# CONVERSORES DE TIPOS DE DADOS
+
+> STRING PARA NÚMERO
+`parseInt` `parseFloat` `Number`
