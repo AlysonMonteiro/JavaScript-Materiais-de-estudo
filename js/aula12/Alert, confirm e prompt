@@ -1,0 +1,11 @@
+## Alert
+
+>window.alert('Text exemple');
+
+## Confirm
+
+>window.confirm('Deseja realmente apagar?');
+
+## prompt
+
+>window.prompt('digite seu nome')
