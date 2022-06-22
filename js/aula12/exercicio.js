@@ -7,5 +7,5 @@ varA = varB;
 varB = varC;
 varC = varD;
 
-console.log(varA, varB, varC);çççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççgguiuiuuoiui
+console.log(varA, varB, varC);
 
