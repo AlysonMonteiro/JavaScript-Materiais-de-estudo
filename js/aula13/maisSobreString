@@ -1,0 +1,37 @@
+let umaString = "um \"texto\"";
+ outraString = "um \\texto";
+
+ console.log(umaString);
+ console.log(outraString);
+
+ ## INDICE
+                *01234567* 
+let umaString = "um texto"; 
+
+umaString[4]
+`E`
+umaString.charAt(6)
+`T`
+
+## CONCATENAÇÃO
+
+console.log(umaString.concat(' em um lindo dia'));
+console.log(umaString + 'em um lindo dia');
+console.log(`${umaString} em um lindo dia`);
+
+## INDEX
+
+console.log(umaString.indexOf('texto', 3));
+console.log(umaString.lastIndexOf('m', 3));
+
+## MAIS COMANDOS
+
+>umaString .match(/[a-z]/g);
+>umaString.search(/x/);
+>umaString.replace(/r/g, '#');
+>umaString.length;
+>umaString.slice(-5, -1);
+>umaString.substring(umaString.length -5, umaString -1);
+>umaString.split;
+>umaString.toUpperCase();
+>umaString.toLowerCase();

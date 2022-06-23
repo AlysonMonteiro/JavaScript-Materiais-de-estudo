@@ -1,0 +1,26 @@
+### CONVERSOR DE NUMBER PARA STRING
+
+`toString();`
+
+### alterando o valor da variavel
+
+>variavel = variavel.toString()
+
+### MOSTRANDO O NUMERO COMO BINARIO
+
+`toString(2);`
+
+### REMOVENDO AS CASAS DECIMAIS
+
+`toFixed(2);` duas casas decimais
+
+### VERIFICAR SE O NÚMERO É INTEIRO
+
+`isInteger(variavel);`
+
+### OBSERVER A O NÚMERO É UM NÚMERO
+
+`isNaN(variavel)`
+
+>IEEE 754-2008
+https://ufsj.edu.br/portal2-repositorio/File/nepomuceno/ca/03a-compieee.pdf 

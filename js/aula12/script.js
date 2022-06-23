@@ -1,5 +1,5 @@
 
-let confirmação = window.confirm('deseja fazer uma conta ?')
+let confirmação = window.confirm('deseja fazer uma conta ?');
 
 if(confirmação === true){
 
