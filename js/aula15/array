@@ -1,0 +1,83 @@
+Arrays(Basico)
+
+O objeto `ARRAY` do javaScript é um objeto global usado na construção de 'ARRAYS':
+ OBJETO de ALTO NIVEL semelhante a lista.
+
+ ## CRIANDO UM ARRAY
+
+ var frutas = ['maça'], ['banana'];
+
+indice dos `ARRAYS`  
+                 0          1          2
+ var frutas = ['maça'], ['banana'], ['pera'];
+
+ ## SELECIONANDO UM INDICE
+
+ console.log(carros[0]);
+
+ *ira selecionar o elemento maça*
+
+ ## EDITANDO UM ELEMENTO DO ARRAY
+
+ frutas[0] = 'uva';
+
+ *"redeclarando" a variavel selecionando o seu indice altera apenas aquele elemento*
+
+ ## ADICIONANDO UM ELEMENTO NO ARRAY
+
+ futas[3] ='limão';
+                                                    0      1       2       3
+ *adicionando um elemento o array agora fica como [uva],[banana],[pera],[limão]*
+    *colocando um indice que não existe no `ARRAY` ele irá adicionar o elemento declarado*
+
+## VERIFICAR O TAMANHO DO ARRAY
+
+frutas.length
+
+*Também é possivel adicionar elemento utilizando a `FUNÇÃO length`*
+
+frutas[frutas.length]=´laranja´;
+
+## OUTRA MANEIRA DE ADICIONAR ELEMENTO *AO FINAL* DO ARRAY
+
+frutas.push('kiwi');
+
+## ADICIONAR UM ELEMENTO *AO INICIO* DO ARRAY
+
+frutas.unshift('goiaba');
+
+## REMOVENDO UM ELEMENTO *AO FINAL* DO ARRAY
+
+frutas.pop();
+
+*OBS: com essa função é possivel armazenar em uma varaivel o valor que foi removido*
+const removido = frutas.pop()
+*como é removido o valor final do `ARRAY` então o valor removido sera o ['kiwi']*
+
+## REMOVENDO UM ELEMENTO *AO INICIO* DO ARRAY
+
+frutas.shift();
+
+## REMOVENDO UM ELEMENTO JUNTO COM O SEU INDICE
+
+delete frutas[0];
+
+*fazendo isso você remove um elemento juntamente com o seu indice*
+*então, quando você for fazer uma busca com['console.log(frutas[0])']*
+*irá receber o valor "UNDEFINED"*
+
+*OBS2: Se você buscar por um indice que não existe você irá receber o valor "undefined",*
+*ele não aprensentará nenhum erro*
+
+## FATIANDO UM ARRAY
+
+frutas.slice(0,3);
+
+*OBS3: Com essa função podera limitar (cortar) o `ARRAY` para apressentar o range que vc definir*
+*também sendo possivel fazer com valores negativos `EX (0, -2)`*
+
+## validando um array
+
+frutas instanceof array;
+
+*OBS4:Essa validação retorna dois valores ('true','false')*
