@@ -1,0 +1,69 @@
+### FUNÇÕES
+
+Funções são blocos de construção fundamentais em javaScript
+uma função é um precedimento de javaScript - um conjunto de instruções
+que executa uma tafera ou calcula um valor. Para usar uma função, você deve defini-la em
+algum lugar no escopo do qual você chamá-lá.
+
+## CRIANDO UMA FUNÇÃO CLASSICA
+
+function saudacao(){
+
+
+}
+
+`chamando ou executando a função`
+
+saudacao();
+
+*OBS:* Colocando os parenteses na frente do nome da função
+diz que está função está sendo executada.
+
+## DEFININDO UM PARAMETRO PARA A FUNÇÃO
+
+Colocando um nume dentro dos parenteses da função `[function saudacao(nome)]` define um parametro
+que a função pode receber.
+
+## DEFININDO UM ARGUMENTO NA FUNÇÃO
+
+Já quando for executar a função é possivel definir o valor do parametro da função[saudacao('andre')] e com isso é possivel
+usar o parametro `saudacao()` com o valor "luiz".
+
+# RETORNANDO UM VALOR NA FUNÇÃO
+
+Caso você tente fazer isso ` const variavel = saudaçao('pedro')`;
+e tentar exibir com um `console.log(variavel)` irá retornar *UNDEFINED*, pois o valor que será retornado não 
+foi definido e por padrão toda função retorna *UNDEFINED*, mas quando o valor é definido com o codigo
+`return`, você conseguirá retornar o valor que foi definido no argumento.
+
+# ESCOPO DA FUNÇÃO  
+
+Nada mais é que o corpo da função que está protegida do resto do codigo, não podendo ser alterado de fora.
+
+## "return" É O FIM DA FUNÇÃO
+
+Depois de se colocar o codigo `return`, nada mais é lido pelo editor abaixo dele.
+
+## DEFININDO UM VALOR PADRÃO
+
+Caso tente executar uma função tendo paramentros definidos e não colocar os valores dele no argumento,
+irá receber um `NaN`, então é possivel estar definindo um valor padrão nos parametros para caso não seja
+diretamente expresso seu valor no argumento, evitando estar recebendo o tipo de dado `NaN`.
+
+`function soma(x = 1, y = 1)`, desta maneira aparecerá *2*, em vez de *NaN*.
+
+## FUNÇÃO ANONIMA 
+
+É um modo de declarar uma função dentro de uma variavel, e nesse modo é necessario colocar um ponto e virgula ao final.
+
+`const raiz = function(n){ return n ** 0.5};`
+
+## ARROW FUNCTION
+
+É a versão mais moderna para se criar funções, ela consiste em :
+
+`const raiz = () => {return n**0.5}`
+
+Um ponto positivo desta versão é a possivel simplificação do codigo.
+
+`const raiz = n => n**0.5`
