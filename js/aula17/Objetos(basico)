@@ -1,0 +1,40 @@
+## OBJETOS
+
+A linguagem javaScript é projetada com base em um simples paradigma orientado a objeto.
+Um objeto e uma coleção de prioridades, e uma propriedade é uma associação entre
+um nome (ou chave) e um valor. Um valor de propriedade pode ser uma função,
+que é então considerada um método do objeto.além dos objetos que são 
+pré-definidos no browser, você pode definir seus proprios objetos.
+
+## CRIANDO UM OBJETO
+
+const pessoa1 = {
+    nome = 'pedro',
+    sobrenome = 'andrade',
+    idade = 90
+};
+
+## CRIANDO UM OBJETO DENTRO DE UMA FUNÇÃO
+
+*OBS:* essa função é denominada de factory
+function criaPessoa(nome,sobrenome,idade){
+    return{
+        nome: nome,
+        sobrenome: sobrenome,
+        idade: idade
+    };
+}
+#### reduzidada
+*OBS:* essa função é denominada de factory
+function criaPessoa(nome,sobrenome,idade){
+    return{ nome,sobrenome, idade };
+}
+
+## DEFININDO UM ARGUMENTO 
+
+const pessoa1 = criaPessoa('luiz', 'andrade', 90);
+
+## FUNÇÃO DENTRO DE OBJETOS 
+
+Quando se coloca uma função dentro de um objeto a função
+é denomidade de método.
