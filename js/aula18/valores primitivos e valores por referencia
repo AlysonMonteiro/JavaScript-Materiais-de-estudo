@@ -1,0 +1,58 @@
+##  VALORES PRIMITIVOS E VALORES POR REFERENCIA
+
+### TIPOS DE DADOS PRIMITIVOS 
+
+`STTING`,
+`NUMBER`,
+`BOOLEAN`,
+`UNDEFINED`,
+`NULL`,
+`BIGINT`,
+`SYMBOL`
+
+*OBS* Tipos de dados primitivos são valores imutaveis, e isso quer dizer que não podem ser alterados.
+
+# COPIAR UM VALOR PRIMITIVO
+
+quando se pega um vamor de um dado primitivo é feito uma copia.
+
+let a = 'A';
+let b - a;
+
+console.log(a, b);
+
+log> A, A
+
+ou seja, mesmo que a variavel (a) seja alterada ao longo do codigo, o valor de (b) se permanecerá
+o mesmo.
+
+a = 'qualquer coisa';
+
+console.log(a,b)
+log> qualquer coisa A
+
+### TIPOS DE DADOS POR  REFERENCIA 
+
+Os tipos de dados por referencia são:
+
+`array`,
+`object`,
+`function`
+
+Além de que estes dados es são mutaveis, então deferente do primitivo, as varaiveis em vez de copiar o valor
+, ela apontam para o mesmo local na memoria.
+
+let a =[1,2,3]
+let b = a;
+
+a.push(4);
+console.log(a,b)
+log> a[1,2,3,4] b[1,2,3,4]
+
+*Mas se usar esse metodo*
+let b = [...a];
+
+a.push(5);
+
+console.log(a,b);
+log> a[1,2,3,4,5] b[1,2,3]
