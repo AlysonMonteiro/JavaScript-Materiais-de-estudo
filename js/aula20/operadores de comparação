@@ -1,0 +1,12 @@
+### OPERADORES DE COMPARAÇÃO
+
+## OS OPERADORES 
+
+> MAIOR QUE
+>= MAIOR QUE OU IGUAL A
+< menor que
+<= menor que ou igual a
+== igualdade (valor) *NÃO SE UTILIZA*
+=== igualdade restrita (valor e tipo)
+!= diferente (valor) *NÃO SE UTILIZA*
+!== dirente restrito (valor e tipo)
