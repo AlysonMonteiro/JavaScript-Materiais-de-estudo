@@ -1,0 +1,20 @@
+## curto circuito ##
+
+No Curto-circuito do javaScript, uma expressão é avaliada
+da esquerda para a direita atpe que seja confirmado que o resultado
+das condições restantes não afetará o resultado ja avaliado. Se o resultado
+for claro antes mesmo da avaliação completa da expressão, ela entra em curto-circuito
+e o resultado será retornado. A avaliação de curto-circuito evita trabalho desnecessario
+e leva a um processamento eficiente.
+
+# AND(&&) CURTO-CIRCUITO #
+
+No caso de and, a expressão é avaliada atpe obtermos um resultado falso porque o resultado será sempre falso,
+independente das outras condições.Se houver uma expressão com &&(and logico) e o proprio primeiro operando for falso,
+ocorre um curto-circuito, a expressão posterior não é avaliada e falso é retornado.
+
+# OR(||) CURTO-CIRCUITO #
+
+No caso de OR, a expressão é avaliada até obtermos um resultado verdadeiro, pois o resultado serpa sempre verdadeiro, independente
+das demais condições. Se houver uma expressão com ||(OU logico) e o primeiro operando for verdadeiro,
+ocorrerá um curto-curcuito, a avaliação será interrompida e falso será retornado. 
