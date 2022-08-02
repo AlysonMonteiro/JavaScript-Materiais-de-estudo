@@ -1,0 +1,4 @@
+Caracteristicas de uma função construtora é que ela sempre vai ter a palavra
+`new` no inicio e sempre vai começar com a primeira letra MAIUSCULA.
+
+`Date(0)` significa Timestamp unix ou época unix
