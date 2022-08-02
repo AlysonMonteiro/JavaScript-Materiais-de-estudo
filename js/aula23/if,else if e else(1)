@@ -1,7 +1,6 @@
 ## CHECAGEM CONDICIONAL
 
-A condicional IF é uma  estrutura condicional que executa a afirmação, dentro do bloco,
-se determinada condição for verdadeira.Se for false, executa as afirmações dentro de ELSE.
+IF é uma  estrutura condicional que executa a afirmação, dentro do bloco, se determinada condição for verdadeira.Se for falsa, executa as afirmações dentro de ELSE.
 
 `IF PODE SER USADO SOZINHO`
 `SEMPRE QUE UTILIZO A PALAVRA ELSE PRECISO DE UM IF`
