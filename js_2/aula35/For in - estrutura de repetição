@@ -1,0 +1,17 @@
+for in -> lê os índices ou chaves do objeto
+
+
+estrutura do for in
+
+for (let variavel in `array ou objeto` ){
+    *escopo*
+}
+
+exemplo
+
+
+const frutas = ['maça','pera','goiaba'];
+
+for( let indice in frutas){
+    console.log(frutas[indice])
+}
