@@ -1,8 +1,11 @@
-// const pessoa = {
-//     nome: 'pedro',
-//     sobrenome:'andre',
-//     idade:80
-// };
+const pessoa = {
+    //chaves do objeto
+    nome: 'pedro',
+    //chaves do objeto
+    sobrenome:'andre',
+    //chaves do objeto
+    idade:80
+};
 // const chave = 'nome';
 // console.log(pessoa.nome);
 // console.log(pessoa[chave]);

@@ -1,4 +1,7 @@
-for in -> lê os índices ou chaves do objeto
+//For in é excluiso para elementos iteraveis ou seja que posuem indice 
+//for in -> lê os índices ou chaves do objeto
+//Array sem arrays dentro pode ser chamado também de vetor
+
 
 
 estrutura do for in
