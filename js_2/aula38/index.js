@@ -21,5 +21,5 @@ while (rand != 10) {
 
 do {
   rand = random(min, max);
-  console.log(rand);
+  console.log(rand); 
 } while (rand !== 10);
