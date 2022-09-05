@@ -21,7 +21,7 @@ const hora = zeroAEsquerda(data.getHours());
 const minuto = zeroAEsquerda(data.getMinutes());
 const segundo = zeroAEsquerda(data.getSeconds());
 
-return `${dia}/${mes}/${ano} ${hora}:${minuto}:${segundo}`;
+return `${hora}:${minuto}:${segundo}`;
 }
 
 const data = new Date(); 
