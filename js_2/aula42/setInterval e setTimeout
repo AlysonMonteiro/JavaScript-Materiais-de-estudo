@@ -1,0 +1,18 @@
+SetInterval e setTimeout 
+
+São duas funções interessantes do javaScript,com elas podemos definir um intervalo de tempo que um
+evento irá acontecer
+
+A sintaxe das duas funções é praticamente idêntica. O que muda é como agem.
+
+CODE
+
+window.setTimeout(function(), intervalo_em_milisegundos);
+
+window.setInterval(function(), intervalo_em_milisegundos);
+
+As duas funções irão chamar uma segunda função passada por parametros no intervalo determinado
+também por parâmetros.
+
+Sendo a setTimeout() chamando a função uma unica vez. enquanto a setInterval() chama a função "infitamente"
+sempre no mesmo intervalo de tempo.
