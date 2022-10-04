@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --background: rgb(94, 107, 107);
+  --secund-backgroud: rgb(37, 180, 185);
+}
+* {
+  box-sizing: border-box;
+
+  outline: 0;
+}
+
+body {
+  background-color: rgb(37, 180, 185);
+  font-family: "Open sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.container {
+    background: white;
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+a {
+  text-decoration: none;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario input {
+  margin: 10px;
+  width: 80%;
+  height: 80%;
+}
+
+.botao {
+  margin-top: 50px;
+  
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: var(--background);
+}
+
+.formulario input:focus {
+  outline: 2px solid black;
+}
+
+.calculadora{
+  width:400px;
+}
+
+.display{
+  font-size: 2em;
+  width:100%;
+  text-align:right;
+}
+
+.btn{
+  width:100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #a19e9e;
+}
