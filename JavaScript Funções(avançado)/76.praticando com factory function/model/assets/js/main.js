@@ -10,7 +10,7 @@ continuará sendo o CALCULADORA()*/
 
 function criaCalculadora(){
     return{ 
-        display: document.querySelector('.display'),
+        display: document.querySelector('.display'), 
         
         
         inicia(){
