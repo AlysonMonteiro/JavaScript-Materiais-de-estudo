@@ -36,7 +36,7 @@ function segundaParte(){
 //FACTORY FUNCTION
     function criaPessoa(nome,sobrenome){
         return{
-            nome,
+            nome: 'vinicius',
             sobrenome,
             get nomeCompleto(){
                 return `${nome} ${sobrenome}`;
@@ -44,14 +44,14 @@ function segundaParte(){
         }
     }
 
-    const p1 = criaPessoa('luiz', 'otavio');
+    const p1 = criaPessoa('andre',' matos');
     console.log(p1.nomeCompleto);
 
 
 
 
 }
-
+ segundaParte();
 function terceiraParte(){
 
     function Pessoa(nome,sobrenome){
